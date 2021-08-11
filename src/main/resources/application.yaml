@@ -1,7 +1,7 @@
 logging:
   level:
     root: ERROR
-    io.lettuce: DEBUG
+    io.lettuce: ERROR
     org.springframework: ERROR
     com.sypark.problem: ERROR
 
