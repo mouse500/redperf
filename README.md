@@ -1,8 +1,8 @@
-# perfwebf
+# redwebf
 sample project for
-WebClient performance
+WebFlux -> Redis performance
 
 
 
-* /workloadwexcall  :  workload using external call
-* /workloadwoexcall :  workload using only cpu job(but with 1ms delay)
+* /wnode  :  workload using redis via node proxy
+* /wredis :  workload using direct redis connection
