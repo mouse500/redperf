@@ -1,6 +1,6 @@
 FROM openjdk:8
 
-ENV P_HOME /opt/redwebf
+ENV P_HOME /opt/redperf
 ENV JAR_FILE ROOT.jar
 
 WORKDIR ${P_HOME}
